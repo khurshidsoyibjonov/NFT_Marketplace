@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <style type="text/tailwindcss"></style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="containers">
+        <div class="flex items-center justify-between py-[27px] gap-[20px]">
+          <div class="">
+            <a href="/"
+              ><img
+                src="./images/logo.svg"
+                alt="logo"
+                width="244"
+                height="32px"
+            /></a>
+          </div>
+          <div class="lg:flex gap-[30px] items-center hidden">
+            <nav class="flex gap-[40px]">
+              <a
+                href="#"
+                class="font-semibold text-[16px] leading-[140%] text-[#FFFFFF] hover:opacity-[70%]"
+                >Marketplace</a
+              >
+              <a
+                href="#"
+                class="font-semibold text-[16px] leading-[140%] text-[#FFFFFF] hover:opacity-[70%]"
+                >Rankings</a
+              >
+              <a
+                href="#"
+                class="font-semibold text-[16px] leading-[140%] text-[#FFFFFF] hover:opacity-[70%]"
+                >Connect a wallet</a
+              >
+            </nav>
+
+            <button
+              class="flex gap-[10px] items-center text-[#FFFFFF] font-semibold text-[16px] leading-[140%] bg-[#A259FF] py-[20px] px-[30px] rounded-[20px] hover:bg-[transparent] border-[1px] border-[#A259FF] hover:border-[#FFFFFF] duration-300"
+            >
+              <img
+                src="./images/user-icon.svg"
+                alt="user-icon"
+                width="20"
+                height="20"
+              />
+              <span> Sign Up </span>
+            </button>
+          </div>
+          <div class="lg:hidden">
+            <a href="#">
+              <img
+                src="./images/menu-icon.svg"
+                alt="menu bar"
+                width="24"
+                height="24"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div
+          class="containers py-[80px] flex flex-col md:flex-row items-center sm:justify-between gap-[30px]"
+        >
+          <div class="w-[330px] lg:w-[501px]">
+            <h1
+              class="font-semibold text-[37px] lg:text-[67px] leading-[120%] lg:leading-[110%] text-[#FFFFFF] mb-[20px] lg:mr-[50px] mr-[30px]"
+            >
+              Discover digital art & Collect NFTs
+            </h1>
+            <p
+              class="text-[16px] leading-[140%] lg:text-[22px] lg:leading-[160%] text-[#FFFFFF] mb-[30px] lg:mr-[70px] mr-[30px]"
+            >
+              NFT marketplace UI created with Anima for Figma. Collect, buy an
+              sell art from more than 20k NFT artists.
+            </p>
+            <div class="hidden sm:block">
+              <button
+                class="flex gap-[10px] items-center text-[#FFFFFF] font-semibold text-[16px] leading-[140%] bg-[#A259FF] py-[20px] px-[30px] rounded-[20px] hover:bg-[transparent] border-[1px] border-[#A259FF] hover:border-[#FFFFFF] duration-300"
+              >
+                <img
+                  src="./images/rocket-icon.svg"
+                  alt="user-icon"
+                  width="20"
+                  height="20"
+                />
+                <span> Get Started </span>
+              </button>
+              <div class="flex justify-between mt-[30px]">
+                <div class="text-[#FFFFFF]">
+                  <strong
+                    class="font-mono block font-bold text-[28px] leading-[140%]"
+                  >
+                    240k+
+                  </strong>
+                  <p class="leading-[160%] text-[24px]">Total Sale</p>
+                </div>
+                <div class="text-[#FFFFFF]">
+                  <strong
+                    class="font-mono block font-bold text-[28px] leading-[140%]"
+                  >
+                    100k+
+                  </strong>
+                  <p class="leading-[160%] text-[24px]">Auctions</p>
+                </div>
+                <div class="text-[#FFFFFF]">
+                  <strong
+                    class="font-mono block font-bold text-[28px] leading-[140%]"
+                  >
+                    240k+
+                  </strong>
+                  <p class="leading-[160%] text-[24px]">Artists</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-[30px]">
+            <div
+              class="flex flex-col w-[330px] h-[330px] lg:w-[501px] lg:h-[401px]"
+            >
+              <div class="w-[330px] h-[221px] lg:w-[501px] lg:h-[401px]">
+                <img src="./images/hero-img.png" alt="hero image" />
+              </div>
+              <div
+                class="py-[23px] px-[20px] bg-[#3B3B3B] rounded-b-[20px] w-[330px] h-[109px] lg:w-[501px] lg:h-[109px]"
+              >
+                <h2
+                  class="text-[22px] leading-[140%] text-[#FFFFFF] font-semibold font-work mb-[10px]"
+                >
+                  Space Walking
+                </h2>
+                <p
+                  class="flex gap-[20px] text-[#FFFFFF] text-[16px] leading-[140%]"
+                >
+                  <img
+                    src="./images/anime-user-icon.svg"
+                    alt="user"
+                    width="24px"
+                    height="24px"
+                  />
+                  <span>Animakid</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:hidden w-full sm:w-[auto]">
+              <button
+                class="flex w-[330px] sm:w-[auto] gap-[10px] items-center text-[#FFFFFF] font-semibold text-[16px] leading-[140%] bg-[#A259FF] py-[20px] px-[30px] rounded-[20px] hover:bg-[transparent] border-[1px] border-[#A259FF] hover:border-[#FFFFFF] duration-300"
+              >
+                <img
+                  src="./images/rocket-icon.svg"
+                  alt="user-icon"
+                  width="20"
+                  height="20"
+                />
+                <span> Get Started </span>
+              </button>
+              <div class="flex justify-between mt-[30px]">
+                <div class="text-[#FFFFFF]">
+                  <strong
+                    class="font-mono block font-bold text-[22px] sm:text-[28px] leading-[140%]"
+                  >
+                    240k+
+                  </strong>
+                  <p class="leading-[160%] text-[16px] sm:text-[24px]">
+                    Total Sale
+                  </p>
+                </div>
+                <div class="text-[#FFFFFF]">
+                  <strong
+                    class="font-mono block font-bold text-[22px] sm:text-[28px] leading-[140%]"
+                  >
+                    100k+
+                  </strong>
+                  <p class="leading-[160%] text-[16px] sm:text-[24px]">
+                    Auctions
+                  </p>
+                </div>
+                <div class="text-[#FFFFFF]">
+                  <strong
+                    class="font-mono block font-bold text-[22px] sm:text-[28px] leading-[140%]"
+                  >
+                    240k+
+                  </strong>
+                  <p class="leading-[160%] text-[16px] sm:text-[24px]">
+                    Artists
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection py-[40px] md:py-[80px]">
+        <div class="containers">
+          <div class="text-center lg:text-left mb-[50px]">
+            <h2
+              class="font-work font-semibold text-[28px] leading-[140%] text-[#FFFFFF] mb-[10px]"
+            >
+              Trending Collection
+            </h2>
+
+            <p
+              class="text-[16px] leading-[140%] text-[#FFFFFF] w-[315px] md:w-full mx-auto"
+            >
+              Checkout our weekly updated trending collection.
+            </p>
+          </div>
+          <ul
+            class="flex w-full justify-center lg:justify-between mx-auto gap-[50px]"
+          >
+            <li class="">
+              <ul class="">
+                <li class="mb-[15px]">
+                  <a href="#">
+                    <img
+                      class="w-[315px] sm:w-[330px] h-[315px] w-[330px"
+                      src="./images/collect1.png"
+                      alt="image"
+                    />
+                  </a>
+                </li>
+                <li class="flex justify-between w-[330px] mb-[15px]">
+                  <a href="#">
+                    <img
+                      src="./images/collect1.2.png"
+                      alt="image"
+                      width="100px"
+                      height="100px"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="./images/collect1.3.png"
+                      alt="image"
+                      width="100px"
+                      height="100px"
+                    />
+                  </a>
+                  <a
+                    class="font-bold text-[#FFFFFF] text-[22px] flex items-center justify-center rounded-[20px] w-[100px] h-[100px] bg-[#A259FF]"
+                    href="#"
+                  >
+                    1025+
+                  </a>
+                </li>
+                <li class="">
+                  <h3
+                    class="font-semibold text-[22px] leading-[140% ] font-work text-[#FFFFFF] mb-[10px]"
+                  >
+                    DSGN Animals
+                  </h3>
+                  <p
+                    class="font-medium text-[16px] leading-[140% ] font-work flex items-center gap-[10px] text-[#FFFFFF]"
+                  >
+                    <img
+                      src="./images/collect1.4.png"
+                      alt="image"
+                      width="24px"
+                      height="24px"
+                    />
+                    <span>MrFox</span>
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="hidden md:block">
+              <ul class="">
+                <li class="mb-[15px]">
+                  <a href="#">
+                    <img
+                      class="w-[315px] sm:w-[330px] h-[315px] w-[330px"
+                      src="./images/collect1.png"
+                      alt="image"
+                    />
+                  </a>
+                </li>
+                <li class="flex justify-between w-[330px] mb-[15px]">
+                  <a href="#">
+                    <img
+                      src="./images/collect1.2.png"
+                      alt="image"
+                      width="100px"
+                      height="100px"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="./images/collect1.3.png"
+                      alt="image"
+                      width="100px"
+                      height="100px"
+                    />
+                  </a>
+                  <a
+                    class="font-bold text-[#FFFFFF] text-[22px] flex items-center justify-center rounded-[20px] w-[100px] h-[100px] bg-[#A259FF]"
+                    href="#"
+                  >
+                    1025+
+                  </a>
+                </li>
+                <li class="">
+                  <h3
+                    class="font-semibold text-[22px] leading-[140% ] font-work text-[#FFFFFF] mb-[10px]"
+                  >
+                    DSGN Animals
+                  </h3>
+                  <p
+                    class="font-medium text-[16px] leading-[140% ] font-work flex items-center gap-[10px] text-[#FFFFFF]"
+                  >
+                    <img
+                      src="./images/collect1.4.png"
+                      alt="image"
+                      width="24px"
+                      height="24px"
+                    />
+                    <span>MrFox</span>
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="hidden lg:block">
+              <ul class="">
+                <li class="mb-[15px]">
+                  <a href="#">
+                    <img
+                      class="w-[315px] sm:w-[330px] h-[315px] w-[330px"
+                      src="./images/collect1.png"
+                      alt="image"
+                    />
+                  </a>
+                </li>
+                <li class="flex justify-between w-[330px] mb-[15px]">
+                  <a href="#">
+                    <img
+                      src="./images/collect1.2.png"
+                      alt="image"
+                      width="100px"
+                      height="100px"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="./images/collect1.3.png"
+                      alt="image"
+                      width="100px"
+                      height="100px"
+                    />
+                  </a>
+                  <a
+                    class="font-bold text-[#FFFFFF] text-[22px] flex items-center justify-center rounded-[20px] w-[100px] h-[100px] bg-[#A259FF]"
+                    href="#"
+                  >
+                    1025+
+                  </a>
+                </li>
+                <li class="">
+                  <h3
+                    class="font-semibold text-[22px] leading-[140% ] font-work text-[#FFFFFF] mb-[10px]"
+                  >
+                    DSGN Animals
+                  </h3>
+                  <p
+                    class="font-medium text-[16px] leading-[140% ] font-work flex items-center gap-[10px] text-[#FFFFFF]"
+                  >
+                    <img
+                      src="./images/collect1.4.png"
+                      alt="image"
+                      width="24px"
+                      height="24px"
+                    />
+                    <span>MrFox</span>
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="creators py-[40px] md:py-[80px]">
+        <div class="containers">
+          <div
+            class="flex justify-center sm:justify-between gap-[20px] mx-auto"
+          >
+            <div
+              class="text-center sm:text-left mb-[40px] md:mb-[60px] font-work"
+            >
+              <h2
+                class="font-work font-semibold text-[28px] leading-[140%] text-[#FFFFFF] mb-[10px]"
+              >
+                Top creators
+              </h2>
+
+              <p
+                class="text-[16px] leading-[140%] text-[#FFFFFF] w-[315px] md:w-full mx-auto"
+              >
+                Checkout Top Rated Creators on the NFT Marketplace
+              </p>
+            </div>
+            <div class="hidden sm:block">
+              <button
+                class="flex gap-[10px] items-center text-[#FFFFFF] font-semibold text-[16px] leading-[140%] bg-[transparent] py-[20px] px-[30px] rounded-[20px] hover:bg-[#A259FF] border-[1px] border-[#A259FF] hover:border-[#A259FF] duration-300"
+              >
+                <img
+                  src="./images/rocket-icon.svg"
+                  alt="user-icon"
+                  width="20"
+                  height="20"
+                />
+                <span> View Rankings </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[50px]"
+          >
+            <!-- 1 -->
+            <div
+              class="bg-[#3B3B3B] flex lg:flex-col flex-row items-center gap-[40px] sm:justify-center relative sm:w-[330px] lg:w-[240px] sm:h-[100px] lg:h-[238px] rounded-[20px] p-[20px] sm:gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] left-[10px] top-[20px] sm:left-[35px] sm:top-[20px] lg:top-[18px] lg:left-[20px] text-[#858584]"
+              >
+                1
+              </div>
+
+              <img
+                class="lg:w-[110px] lg:h-[120px] w-[60px] h-[60px]"
+                src="./images/artis1.svg"
+                alt="image artist"
+              />
+
+              <div class="text-left lg:text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Keepitreal
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div
+              class="bg-[#3B3B3B] flex lg:flex-col flex-row items-center gap-[40px] sm:justify-center relative sm:w-[330px] lg:w-[240px] sm:h-[100px] lg:h-[238px] rounded-[20px] p-[20px] sm:gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] left-[10px] top-[20px] sm:left-[35px] sm:top-[20px] lg:top-[18px] lg:left-[20px] text-[#858584]"
+              >
+                2
+              </div>
+
+              <img
+                class="lg:w-[110px] lg:h-[120px] w-[60px] h-[60px]"
+                src="./images/artis2.svg"
+                alt="image artist"
+              />
+
+              <div class="text-left lg:text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  DigiLab
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div
+              class="bg-[#3B3B3B] flex lg:flex-col flex-row items-center gap-[40px] sm:justify-center relative sm:w-[330px] lg:w-[240px] sm:h-[100px] lg:h-[238px] rounded-[20px] p-[20px] sm:gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] left-[10px] top-[20px] sm:left-[35px] sm:top-[20px] lg:top-[18px] lg:left-[20px] text-[#858584]"
+              >
+                3
+              </div>
+
+              <img
+                class="lg:w-[110px] lg:h-[120px] w-[60px] h-[60px]"
+                src="./images/artis3.svg"
+                alt="image artist"
+              />
+
+              <div class="text-left lg:text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  GravityOnes
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div
+              class="bg-[#3B3B3B] flex lg:flex-col flex-row items-center gap-[40px] sm:justify-center relative sm:w-[330px] lg:w-[240px] sm:h-[100px] lg:h-[238px] rounded-[20px] p-[20px] sm:gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] left-[10px] top-[20px] sm:left-[35px] sm:top-[20px] lg:top-[18px] lg:left-[20px] text-[#858584]"
+              >
+                4
+              </div>
+
+              <img
+                class="lg:w-[110px] lg:h-[120px] w-[60px] h-[60px]"
+                src="./images/artis4.svg"
+                alt="image artist"
+              />
+
+              <div class="text-left lg:text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Juanie
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div
+              class="bg-[#3B3B3B] flex lg:flex-col flex-row items-center gap-[40px] sm:justify-center relative sm:w-[330px] lg:w-[240px] sm:h-[100px] lg:h-[238px] rounded-[20px] p-[20px] sm:gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] left-[10px] top-[20px] sm:left-[35px] sm:top-[20px] lg:top-[18px] lg:left-[20px] text-[#858584]"
+              >
+                5
+              </div>
+
+              <img
+                class="lg:w-[110px] lg:h-[120px] w-[60px] h-[60px]"
+                src="./images/artis5.svg"
+                alt="image artist"
+              />
+
+              <div class="text-left lg:text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  BlueWhale
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div
+              class="bg-[#3B3B3B] hidden sm:flex flex-col flex-row items-center gap-[40px] sm:justify-center relative sm:w-[330px] lg:w-[240px] sm:h-[100px] lg:h-[238px] rounded-[20px] p-[20px] sm:gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] left-[10px] top-[20px] sm:left-[35px] sm:top-[20px] lg:top-[18px] lg:left-[20px] text-[#858584]"
+              >
+                6
+              </div>
+
+              <img
+                class="lg:w-[110px] lg:h-[120px] w-[60px] h-[60px]"
+                src="./images/artis6.svg"
+                alt="image artist"
+              />
+
+              <div class="text-left lg:text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Mr Fox
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- 7 -->
+            <div
+              class="bg-[#3B3B3B] hidden lg:flex flex-col items-center justify-center relative w-[240px] h-[238px] rounded-[20px] p-[20px] gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] top-[18px] left-[20px] text-[#858584]"
+              >
+                7
+              </div>
+
+              <img
+                src="./images/artis7.svg"
+                alt="image artist"
+                width="110px"
+                height="120px"
+              />
+
+              <div class="text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Shroomie
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- 8 -->
+            <div
+              class="bg-[#3B3B3B] hidden lg:flex flex-col items-center justify-center relative w-[240px] h-[238px] rounded-[20px] p-[20px] gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] top-[18px] left-[20px] text-[#858584]"
+              >
+                8
+              </div>
+
+              <img
+                src="./images/artis8.svg"
+                alt="image artist"
+                width="110px"
+                height="120px"
+              />
+
+              <div class="text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Robotica
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div
+              class="bg-[#3B3B3B] hidden lg:flex flex-col items-center justify-center relative w-[240px] h-[238px] rounded-[20px] p-[20px] gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] top-[18px] left-[20px] text-[#858584]"
+              >
+                9
+              </div>
+
+              <img
+                src="./images/artis9.svg"
+                alt="image artist"
+                width="110px"
+                height="120px"
+              />
+
+              <div class="text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  RustyRobot
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 10 -->
+            <div
+              class="bg-[#3B3B3B] hidden lg:flex flex-col items-center justify-center relative w-[240px] h-[238px] rounded-[20px] p-[20px] gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] top-[18px] left-[20px] text-[#858584]"
+              >
+                10
+              </div>
+
+              <img
+                src="./images/artis10.svg"
+                alt="image artist"
+                width="110px"
+                height="120px"
+              />
+
+              <div class="text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Animakid
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 11 -->
+            <div
+              class="bg-[#3B3B3B] hidden lg:flex flex-col items-center justify-center relative w-[240px] h-[238px] rounded-[20px] p-[20px] gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] top-[18px] left-[20px] text-[#858584]"
+              >
+                11
+              </div>
+
+              <img
+                src="./images/artis11.svg"
+                alt="image artist"
+                width="110px"
+                height="120px"
+              />
+
+              <div class="text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Dotgu
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+            <!-- 12 -->
+            <div
+              class="bg-[#3B3B3B] hidden lg:flex flex-col items-center justify-center relative w-[240px] h-[238px] rounded-[20px] p-[20px] gap-[20px]"
+            >
+              <div
+                class="flex absolute items-center justify-center w-[30px] h-[30px] bg-[#2B2B2B] rounded-[20px] top-[18px] left-[20px] text-[#858584]"
+              >
+                12
+              </div>
+
+              <img
+                src="./images/artis12.svg"
+                alt="image artist"
+                width="110px"
+                height="120px"
+              />
+
+              <div class="text-center font-work">
+                <h3
+                  class="font-semibold text-[22px] leading-[140%] text-[#FFFFFF]"
+                >
+                  Ghiblier
+                </h3>
+                <p class="">
+                  <span class="text-[#858584] text-[12px]">Total Sales:</span>
+                  <span class="text-[#FFFFFF]">34.53 ETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </body>
+</html>
