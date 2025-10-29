@@ -73,3 +73,11 @@ body {
 .font-space {
   font-family: "Space Mono", monospace;
 }
+
+.discover_bg {
+  background-image: url(../images/dicvover-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
